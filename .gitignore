@@ -31,6 +31,7 @@ PHASE-8-GITHUB-INSTALLER-REPORT.md
 RUNTIME-TREE.md
 SKILL-MICRO-PATCH-REPORT.md
 SOURCE-TO-RUNTIME-MAPPING.md
+Phase 8 Fix - NPX Package Structure Report
 
 # Local secrets, installs, caches, and generated package files.
 .env
