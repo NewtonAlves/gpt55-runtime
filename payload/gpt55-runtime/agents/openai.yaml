@@ -1,0 +1,5 @@
+interface:
+  display_name: "GPT55 Runtime"
+  short_description: "Master router for Codex routes, policies, references, validation, and skill governance."
+  default_prompt: "$gpt55-runtime escolha a melhor rota e valide antes de concluir"
+

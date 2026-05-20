@@ -1,0 +1,27 @@
+{
+  "name": "gpt55-runtime",
+  "version": "2026.1.0",
+  "description": "Portable GPT55 Runtime skill installer for Codex-compatible agents.",
+  "type": "module",
+  "bin": {
+    "gpt55-runtime": "scripts/install.mjs"
+  },
+  "scripts": {
+    "doctor": "node scripts/doctor.mjs",
+    "validate": "node scripts/validate.mjs",
+    "uninstall": "node scripts/uninstall.mjs"
+  },
+  "files": [
+    "payload/gpt55-runtime",
+    "scripts",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
