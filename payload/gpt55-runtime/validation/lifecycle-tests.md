@@ -91,3 +91,29 @@ Must not: essential
 Input: registrar skill opcional
 Expected: update registry/reference only
 Must not: edit SKILL.md
+
+## Phase 14 PHP + vanilla web lifecycle tests
+
+### Test - PHP stack uses existing categories
+
+Input: integre PHP + HTML + CSS + JavaScript ao runtime
+Expected: use backend, frontend, security and design categories
+Must not: create a new PHP category when a flow/reference solves the route
+
+### Test - PHP route preserves SKILL.md
+
+Input: adicione rota para CRUD PHP
+Expected: update registries, flow, specialists, references and validation
+Must not: add a long PHP curation to SKILL.md
+
+### Test - PHP vanilla is not Laravel/React/Node
+
+Input: crie mini app PHP vanilla com MySQL
+Expected: use php-fullstack-flow with php-modern and vanilla-web
+Must not: assume Laravel, React, Next.js, Node or Prisma unless the user asks
+
+### Test - PHP security reviewer
+
+Input: crie login, upload ou CRUD com PHP
+Expected: include security review criteria and PHP security validation
+Must not: produce raw SQL, plaintext passwords, unsafe upload or sensitive localStorage patterns

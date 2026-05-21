@@ -39,5 +39,15 @@
 | Auditar seguranca | security | security-reviewer + evidence-reviewer | multi-agent-review-flow if allowed | deep | maybe | yes |
 | Analisar PDF/DOCX/planilha | research-discovery | document-automation-specialist | research-discovery-flow | standard | no unless external facts | yes |
 | Auditar skills instaladas | research-discovery | skill-scout | skill-update-flow | deep | no | yes |
+| Criar CRUD PHP com PDO | backend + security + frontend | php-modern + vanilla-web + security-reviewer | php-fullstack-flow | deep | maybe | yes |
+| Criar sistema PHP com login | backend + security + frontend | php-modern + security-reviewer + vanilla-web | php-fullstack-flow + auth-flow | deep | maybe | yes |
+| Criar mini app PHP + MySQL | backend + frontend + design | php-modern + vanilla-web | php-fullstack-flow | deep | maybe | yes |
+| Criar dashboard PHP simples | backend + frontend + design | php-modern + vanilla-web | php-fullstack-flow + design-system-flow | standard | maybe | yes |
+| Criar formulario PHP seguro | backend + frontend + security | php-modern + vanilla-web + security-reviewer | php-fullstack-flow | standard | maybe | yes |
+| Criar upload seguro em PHP | backend + security | php-modern + security-reviewer | php-fullstack-flow | deep | yes | yes |
+| Criar API PHP para Fetch | backend + frontend | php-modern + vanilla-web | php-fullstack-flow + backend-api-flow | standard | maybe | yes |
+| Refatorar PHP legado para estrutura moderna | backend + security | php-modern + critic-reviewer | php-fullstack-flow | deep | maybe | yes |
+| Criar HTML/CSS/JS sem framework | frontend + design | vanilla-web + critic-reviewer | design-system-flow | standard | maybe | yes |
+| Criar interface vanilla web responsiva | frontend + design | vanilla-web | design-system-flow | standard | maybe | yes |
 
 Rule: this matrix stores recurring, reusable routes, not personal one-off projects.

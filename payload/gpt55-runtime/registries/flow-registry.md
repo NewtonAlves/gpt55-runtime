@@ -18,4 +18,4 @@
 | example-driven-development-flow | Build from real examples | technical categories | docs/examples/tests |
 | multi-agent-review-flow | Parallel review | cross-cutting | integration review |
 | engineering-risk-review | Engineering risk support | engineering | high-risk limitations |
-
+| php-fullstack-flow | PHP + HTML + CSS + JavaScript projects without heavy framework | backend, frontend, security, design | php-html-css-js-tests, security checks, local smoke |

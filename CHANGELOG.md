@@ -1,5 +1,12 @@
 # Changelog
 
+## Phase 14 - PHP + Vanilla Web Stack
+
+- Added PHP + HTML + CSS + JavaScript stack guide.
+- Added `php-fullstack-flow`.
+- Added PHP/vanilla web routing and validation tests.
+- Preserved `SKILL.md` as a short control plane.
+
 ## 2026.1.0
 
 - Added portable GitHub/npx installer.

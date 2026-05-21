@@ -30,3 +30,12 @@
 | security-reviewer | security | Security, auth, secrets and abuse-case review | HIGH | critic-reviewer |
 | android-mobile-specialist | android | Android/mobile/KMP/Flutter route triage | MEDIUM | compose |
 | document-automation-specialist | research/documents | DOCX, PDF, slides, spreadsheets and document workflow triage | MEDIUM | research-discovery |
+| php-modern | backend/security | PHP 8+, Composer, PDO, MySQL, sessions, auth, upload and simple MVC | MEDIUM | backend + security-reviewer |
+| vanilla-web | frontend/design | Semantic HTML, responsive CSS, DOM, Fetch, forms and no-framework UI | MEDIUM | frontend + critic-reviewer |
+
+## PHP + Vanilla Web Specialists
+
+| Specialist | When to use | When not to use | Risk | Related flows | Related references |
+|---|---|---|---|---|---|
+| php-modern | PHP backend, PDO/MySQL CRUD, login/session, upload, simple MVC, secure server validation | Laravel/Symfony/WordPress-specific work unless the user asks for plain PHP review around them | HIGH when auth, data writes or uploads are involved | php-fullstack-flow, backend-api-flow, auth-flow | references/dev-examples/php-html-css-js-guide.md |
+| vanilla-web | HTML/CSS/JavaScript without React/Next/Vue, PHP forms, Fetch endpoints, vanilla dashboards and UI interactions | Framework apps where React/Next/Vue conventions dominate | MEDIUM, HIGH when forms collect sensitive data | php-fullstack-flow, design-system-flow | references/dev-examples/php-html-css-js-guide.md |

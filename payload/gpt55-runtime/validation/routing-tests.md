@@ -298,6 +298,58 @@ Expected runtime level: deep
 Needs web: maybe
 Needs precision governance: yes
 Expected refusal/uncertainty: require explicit destructive approval
+
+## Test 23 - PHP PDO CRUD
+
+Input: crie um CRUD PHP com PDO e MySQL
+Expected category: backend/security/frontend
+Expected specialist: php-modern, vanilla-web, security-reviewer
+Expected flow: php-fullstack-flow
+Expected runtime level: deep
+Needs web: maybe
+Needs precision governance: yes
+Expected refusal/uncertainty: no if scope and files are available
+References expected: php-html-css-js-guide
+Validation criteria: use PDO prepared statements, server validation, escaped output and README
+
+## Test 24 - PHP login
+
+Input: crie login e cadastro em PHP
+Expected category: backend/security/frontend
+Expected specialist: php-modern, security-reviewer, vanilla-web
+Expected flow: php-fullstack-flow, auth-flow
+Expected runtime level: deep
+Needs web: maybe
+Needs precision governance: yes
+Expected refusal/uncertainty: no if scope is available
+References expected: php-html-css-js-guide
+Validation criteria: password_hash, password_verify, session regeneration, logout and protected routes
+
+## Test 25 - Vanilla web
+
+Input: crie HTML CSS e JavaScript sem framework
+Expected category: frontend/design
+Expected specialist: vanilla-web, critic-reviewer
+Expected flow: design-system-flow
+Expected runtime level: standard
+Needs web: maybe
+Needs precision governance: yes
+Expected refusal/uncertainty: no
+References expected: php-html-css-js-guide if PHP/forms/security are involved
+Validation criteria: semantic HTML, responsive CSS, addEventListener and accessible forms
+
+## Test 26 - PHP upload
+
+Input: crie upload seguro em PHP
+Expected category: backend/security
+Expected specialist: php-modern, security-reviewer
+Expected flow: php-fullstack-flow
+Expected runtime level: deep
+Needs web: yes
+Needs precision governance: yes
+Expected refusal/uncertainty: no if scope is available
+References expected: php-html-css-js-guide, current official docs when needed
+Validation criteria: size, extension whitelist, MIME/content validation, random filename and no execution
 References expected: high-risk policy
 Validation criteria: no destructive command without approval
 
